@@ -1,0 +1,14 @@
+    .profileLogo{
+        padding: 50px;
+        display: flex;
+        width: 400px;
+        height: 800px;
+        column-gap: 100px;
+       margin-left: 200px;
+       margin-right: 200px;
+        align-items: center;
+        height: 300px;
+        border: solid rgb(147, 151, 147) 2px;
+        border-radius: 20px;
+        
+    }

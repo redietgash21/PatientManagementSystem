@@ -1,0 +1,176 @@
+
+
+
+
+
+
+
+
+
+@import "@grapecity/activereports/styles/ar-js-ui.css";
+@import "@grapecity/activereports/styles/ar-js-designer.css";
+@import "@grapecity/activereports/styles/ar-js-viewer.css";
+
+/*    || RESET   */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*    || VARIABLES   */
+
+:root{
+  /*    COLORS   */
+  --bgColor: white;
+  --color: black;
+  
+
+}
+
+
+
+
+#viewer-host {
+  width: 100%;
+  height: 100vh;
+}
+#designer-host {
+  width: 100%;
+  height: 100vh;
+
+}
+.carouselDiscription{
+  color:#b3b0b0
+}
+.carouselTitle{
+  color: #a09e9e;
+}
+.copy {
+  text-decoration: none;
+  color: rgb(1, 12, 24);
+  background-color: #d4d4d4;
+  font-family: sans-serif;
+  font-style: oblique;
+  border-radius: 7px;
+}
+.info {
+  margin-top: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+.login {
+  text-align: left;
+  border: none;
+  border-radius: 5px;
+}
+.signin {
+  text-align: left;
+  margin-left: 150px;
+
+  border: none;
+  border-radius: 5px;
+}
+.pri {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.privacy {
+  margin-right: 100px;
+  border: none;
+  border-radius: 5px;
+}
+.about,
+.head {
+  margin-left: 100px;
+  border: none;
+  border-radius: 5px;
+}
+button {
+  background-color: rgb(143, 175, 164);
+
+  text-decoration: none;
+  color: inherit;
+  font-family: sans-serif;
+  font-style: oblique;
+  border: none;
+  border-radius: 7px;
+}
+
+h2 {
+  text-decoration: none;
+  color: rgb(241, 246, 252);
+  font-family: sans-serif;
+  font-style: oblique;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-right: 100px;
+}
+h3 {
+  font-family: sans-serif;
+  font-style: oblique;
+  border-radius: 10px;
+}
+h4 {
+  color: rgb(249, 250, 252);
+  margin-top: 70px;
+  border: 1px solid #73ad21;
+  border-radius: 5px;
+}
+
+/* .df {
+  background-color: rgba(229, 233, 238, 0.493);
+} */
+p {
+  align-items: center;
+  padding: 10px;
+}
+table{
+  width: 100%;
+}
+tr:nth-child(odd){
+  background-color: rgb(235, 244, 252);
+}
+tr:nth-child(even){
+  background-color: rgb(195, 223, 250);
+}
+th{
+  background-color: rgb(6, 128, 250);
+  height:40px;
+  color: white;
+}
+td, th{
+  padding-right: 6px;
+}
+.btnEdit{
+  margin: 5px 0 5px 0;
+  height: 30px;
+  border-radius: 5px;
+ 
+  /* vertical-align:middle; */
+}
+tr:hover, tr:focus{
+  background-color: rgb(56, 154, 252);
+  color: white;
+}
+.BackButton {
+  align-self: self-start;
+}
+.SubBody {
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  border: #cecece solid 1px;
+  border-radius: 5px;
+  max-height: 80px;
+  max-width: 120px;
+}
+.AppClass {
+  background-color: hsl(0, 0%, 6%);
+}
+button{
+  background-color: rgb(6, 128, 250);
+}

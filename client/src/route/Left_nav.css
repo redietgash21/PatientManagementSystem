@@ -1,0 +1,16 @@
+.Left_Side_Nav {
+  position: relative;
+  padding: 0px opx opx 10px;
+
+  margin-right: 80%;
+  left: 0px;
+  top: 0%;
+  height: 80%;
+  background-color: rgba(239, 242, 250, 0.575);
+  padding-left: 20px;
+  padding-right: 4px;
+  padding-bottom: 24px;
+  gap: 5px;
+  width: 20%;
+  border-radius: 10px;
+}

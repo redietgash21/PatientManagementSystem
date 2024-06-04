@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+}
+.userName {
+  margin-top: 60px;
+}
+.Password {
+  margin-top: 25px;
+}
+.Role {
+  margin-top: 25px;
+}
+.LoginReset {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.login {
+  margin-right: 30px;
+}
+.reset {
+  margin-left: 30px;
+}
+.LoggClass {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgb(35, 49, 49) 0.5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 1%;
+  min-height: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: solid rgb(1, 201, 201) 0.5px;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+input {
+  font-size: 16px;
+  height: 33px;
+  min-width: 230px;
+  border-radius: 8px;
+  border: solid rgb(187, 189, 189) 0.5px;
+}
+
+button {
+  pointer-events: painted;
+  cursor: pointer;
+}

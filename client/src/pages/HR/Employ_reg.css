@@ -1,0 +1,72 @@
+.div50 {
+  width: 20%;
+  padding-left: 80px;
+  padding-right: 200px;
+
+  display: inline-block;
+  margin-bottom: -350px;
+}
+#lblimg {
+  margin-bottom: 200px;
+  padding-bottom: 200px;
+}
+button{
+  padding: 2px 17px;
+}
+.BodyParent
+{
+  background-color:  rgb(195, 223, 250);
+  width: 85%;
+  max-width: 100%;
+  border-radius: 30px;
+  margin-block: 10px;
+  }
+ h3{
+  text-align: center;
+ }
+.cont {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(204, 203, 203);
+  display: inline-block;
+}
+.h {
+  text-align: center;
+
+  font-weight: bold;
+}
+.img-holder {
+  width: 200px;
+  height: 200px;
+
+  margin: auto;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+#input[type="file"] {
+  display: none;
+}
+table{
+  width:100%;
+}
+.label {
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.FormClass {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 8px;
+  border-radius: 20px;
+  background-color:rgb(235, 244, 252);
+  justify-content: center;
+}

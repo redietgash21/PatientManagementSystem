@@ -1,0 +1,94 @@
+.BodyParent {
+  position: absolute;
+  margin-top: 0px;
+  display: flexbox;
+  flex-direction: row;
+  background-color: rgba(106, 128, 190, 0.432);
+  width: 100%;
+  height: 100%;
+  max-height: max-content;
+  margin-right: 0px;
+}
+.BodyArea {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-left: 20%;
+  min-height: 90%;
+  width: 80%;
+  /* margin-left: 0%;
+    */
+  /* left: 0px;
+  right: 0px;
+  width: 100%; */
+
+  background-color: rgba(239, 242, 250, 0.507);
+  color-interpolation-filters: linearRGB;
+
+  text-align: center;
+  border-radius: 10px;
+}
+.profile {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+}
+.cont {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(204, 203, 203);
+
+  display: inline-block;
+}
+.h {
+  text-align: center;
+
+  font-weight: bold;
+}
+
+.imge {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+#input[type="file"] {
+  display: none;
+}
+
+.patientRecord {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+
+  text-align: left;
+}
+.LoginReset {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.LoggClass1 {
+  min-height: 300px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.LoggClass2 {
+  min-height: 300px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+}
+.LoggClass3 {
+  min-height: 300px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+}
